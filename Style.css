@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+svg {
+  width: 320px;
+}
+
+#heart {
+  fill: none;
+  stroke: red;
+  stroke-width: 6;
+  filter: drop-shadow(0 0 15px red);
+}
+
+/* 🔴 Name Style */
+.name {
+  margin-top: 15px;
+  font-size: 32px;
+  color: red;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 0 0 10px red, 0 0 25px red;
+}
